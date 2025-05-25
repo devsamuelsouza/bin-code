@@ -17,6 +17,8 @@ Antes de começar, verifique se você possui o seguinte:
 ## **⚙️ Execução**  
 - Você poderá acessar o software baixando o arquivo BinCode.exe nas tags desse repositorio:
 
+[Download](https://github.com/devsamuelsouza/bin-code/tags)
+
 ## **🛠️ Tecnologias e Ferramentas Utilizadas**  
 Este projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:  
 
