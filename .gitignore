@@ -1,0 +1,91 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio working folder
+.vscode/
+.vs/
+.vsconfig
+
+# Build results of VS Code
+out/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directory
+.history/
+
+# Logs
+*.log
+
+# Compiled DLLs and executables
+*.exe
+*.dll
+*.app
+*.msi
+*.msp
+*.deb
+*.rpm
+*.nuget
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# NPM packages
+node_modules/
+
+# Backup & temporary files
+*.bak
+*.tmp
+*.temp
+*.old
+*.orig
+
+# Visual Studio cache files
+*.cache
+*.dbmdl
+*.pdb
+
+# Configuration transforms
+*.Transform.*
+
+# Publish output
+publish/
+
+# JetBrains Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Azure Pipeline local config
+.azdo/
+
+# Mac or Linux hidden files
+.DS_Store
+*.swp
+
+# Others
+TestResults/
+Generated_Code/
+
+# Local DotNet environment
+.env
