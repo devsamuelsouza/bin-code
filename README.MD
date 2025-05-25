@@ -15,11 +15,8 @@ Antes de começar, verifique se você possui o seguinte:
 - Sistema operacional Windows de 64 bits
 
 ## **⚙️ Execução**  
-- Você poderá acessar o sistema software baixando o arquivo BinCode.exe no diretorio:
+- Você poderá acessar o sistema software baixando o arquivo BinCode.exe nas tags desse repositorio:
 
-```bash
-    /exe/BinCode.exe
-```
 ## **🛠️ Tecnologias e Ferramentas Utilizadas**  
 Este projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:  
 
