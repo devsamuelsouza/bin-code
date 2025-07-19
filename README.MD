@@ -13,6 +13,7 @@ Um software para converter texto para binario e para traduzir codigos binarioss!
 ## **📋 Pré-requisitos**  
 Antes de começar, verifique se você possui o seguinte:  
 - Sistema operacional Windows de 64 bits
+- .NET Runtime [.NET](https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.7/dotnet-runtime-8.0.7-win-x64.exe)
 
 ## **⚙️ Execução**  
 - Você poderá acessar o software baixando o arquivo BinCode.exe nas tags desse repositorio:
