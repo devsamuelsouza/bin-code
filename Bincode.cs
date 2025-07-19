@@ -80,7 +80,10 @@ namespace BinCode
 
         private void Output_KeyPress(object sender, KeyPressEventArgs e)
         {
-            e.Handled = true;
+            if (!char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

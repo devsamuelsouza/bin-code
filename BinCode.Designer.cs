@@ -50,17 +50,21 @@
             Painel.Controls.Add(Input);
             Painel.Location = new Point(12, 85);
             Painel.Name = "Painel";
-            Painel.Size = new Size(662, 269);
+            Painel.Size = new Size(662, 293);
             Painel.TabIndex = 1;
             // 
             // Converter
             // 
             Converter.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Converter.Location = new Point(284, 240);
+            Converter.Image = (Image)resources.GetObject("Converter.Image");
+            Converter.ImageAlign = ContentAlignment.MiddleLeft;
+            Converter.Location = new Point(276, 250);
             Converter.Name = "Converter";
-            Converter.Size = new Size(92, 26);
+            Converter.Size = new Size(111, 30);
             Converter.TabIndex = 2;
-            Converter.Text = "Converter";
+            Converter.Text = "Converter ";
+            Converter.TextAlign = ContentAlignment.MiddleRight;
+            Converter.TextImageRelation = TextImageRelation.TextBeforeImage;
             Converter.UseVisualStyleBackColor = true;
             Converter.Click += Converter_Click;
             // 
@@ -131,12 +135,14 @@
             // 
             AutoScaleDimensions = new SizeF(6F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Window;
             ClientSize = new Size(686, 390);
             Controls.Add(Painel);
             Controls.Add(Title);
             Font = new Font("Microsoft Sans Serif", 8.25F);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             MaximumSize = new Size(702, 429);
             MinimumSize = new Size(702, 429);
             Name = "Bincode";
